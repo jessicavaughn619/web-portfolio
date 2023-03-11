@@ -30,7 +30,6 @@ const About = () => {
               <small>Building Portfolio</small>
             </article>
           </div> */}
-
           <p>Hi, my name is Jessica Vaughn and I am a software engineer. I spent the past eight years working in public education.</p>
           <p>I became interested in web development after completing a tutorial course and seeing how many languages and frameworks there were to master. 
           I value working in a dynamic industry where continually developing new skill sets is essential and where there is always something new to learn.
