@@ -2,8 +2,6 @@ import React from 'react'
 import "./contact.css"
 import {HiOutlineMail} from "react-icons/hi"
 import {AiOutlineLinkedin} from "react-icons/ai"
-import { useRef } from 'react';
-import emailjs from "emailjs-com"
 
 const Contact = () => {
 
@@ -26,7 +24,7 @@ const Contact = () => {
           <AiOutlineLinkedin className="contact__option-icon" />
           <h4>LinkedIn</h4>
           <h6>Jessica Vaughn</h6>
-          <a href="https://www.linkedin.com/in/jessicavaughn619/">View profile</a>
+          <a href="https://www.linkedin.com/in/jessicavaughn619/" target="_blank">View profile</a>
         </article>
       </div>
     </div>

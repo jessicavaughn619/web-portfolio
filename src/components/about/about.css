@@ -1,7 +1,5 @@
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
 }
 
 .about__me {
@@ -53,6 +51,10 @@
 .about__card small {
     font-size: 0.7rem;
     color: var(--color-light);
+}
+
+.about__content {
+    text-align: center;
 }
 
 .about__content p {
