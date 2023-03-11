@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 5rem;
     overflow: hidden;
 }
 
@@ -46,7 +46,6 @@ header {
     margin-top: 4rem;
     overflow: hidden;
     border-radius: 12rem 12rem 0 0;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* =============== SCROLL DOWN =============== */
@@ -62,7 +61,7 @@ header {
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 100vh;
     }
 }
 
@@ -71,7 +70,7 @@ header {
     header {
         height: 100vh;
     }
-
+    
     .header__socials,
     .scroll__down {
         display: none;

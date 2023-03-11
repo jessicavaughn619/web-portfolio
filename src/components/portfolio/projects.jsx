@@ -1,42 +1,24 @@
-import IMG1 from "../../assets/blogsite.png"
-import IMG2 from "../../assets/todolist.png"
-import IMG3 from "../../assets/keeperapp.png"
-import IMG4 from "../../assets/drummachine.png"
+import IMG1 from "../../assets/wufr.png"
+import IMG2 from "../../assets/brewery-taplist.png"
+
 
 const projects = [
     
 {
     id: 1,
     image: IMG1,
-    title: "Blog Site",
-    github: "https://github.com/leopards4life/blogsite",
-    demo: ""
+    title: "Wufr - An App for Single Dogs",
+    github: "https://github.com/leopards4life/phase-1-project-wufr",
+    demo: "https://youtu.be/WAt56Ji8z8I"
 },
 
 {
     id: 2,
     image: IMG2,
-    title: "To-Do List",
-    github: "https://github.com/leopards4life/todo-list",
-    demo: ""
-},
-
-{
-    id: 3,
-    image: IMG3,
-    title: "Keeper App",
-    github: "https://github.com/leopards4life/KeeperApp",
-    demo: ""
-},
-
-{
-    id: 4,
-    image: IMG4,
-    title: "Drum Machine",
-    github: "https://github.com/leopards4life/drum-machine",
-    demo: ""
-},
-
+    title: "Brewery Taplist",
+    github: "https://github.com/leopards4life/phase-2-project-brewery-taplist",
+    demo: "https://youtu.be/KThVwCYGJ3Q"
+}
 ]
 
 export default projects;

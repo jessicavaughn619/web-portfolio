@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section id="experience">
     <h5>What Skills I Have</h5>
-    <h2>Frameworks</h2>
+    <h2>Frameworks & Languages</h2>
     
     <div className="container experience__container">
       <div className="experience__frontend">
@@ -40,6 +40,13 @@ const Experience = () => {
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
+          <article className="experience__details">
+            <AiOutlineCheckCircle className="experience__details-icon" />
+            <div>
+              <h4>UI Semantic</h4>
+              {/* <small className="text-light">Novice</small> */}
+            </div>
+          </article>
         </div>
       </div>
       
@@ -49,7 +56,7 @@ const Experience = () => {
           <article className="experience__details">
             <AiOutlineCheckCircle className="experience__details-icon" />
             <div>
-              <h4>MongoDB</h4>
+              <h4>Python</h4>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
