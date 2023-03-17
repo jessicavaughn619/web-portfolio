@@ -17,7 +17,7 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
-    width: 15rem;
+    width: 100%;
 }
 
 .contact__option:hover {
@@ -81,7 +81,8 @@ textarea {
 /* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
     .container.contact__container {
+        display: flex;
+        flex-direction: column;
         width: var(--container-width-sm);
-
     }
 }
