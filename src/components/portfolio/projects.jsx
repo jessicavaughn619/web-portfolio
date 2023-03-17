@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     image: IMG1,
     title: "Wufr - An App for Single Dogs",
-    github: "https://github.com/leopards4life/phase-1-project-wufr",
+    github: "https://github.com/jessicavaughn619/phase-1-project-wufr",
     demo: "https://youtu.be/WAt56Ji8z8I"
 },
 
@@ -16,7 +16,7 @@ const projects = [
     id: 2,
     image: IMG2,
     title: "Brewery Taplist",
-    github: "https://github.com/leopards4life/phase-2-project-brewery-taplist",
+    github: "https://github.com/jessicavaughn619/phase-2-project-brewery-taplist",
     demo: "https://youtu.be/KThVwCYGJ3Q"
 }
 ]
