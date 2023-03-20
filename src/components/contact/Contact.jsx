@@ -17,14 +17,14 @@ const Contact = () => {
           <HiOutlineMail className="contact__option-icon" />
           <h4>Email</h4>
           <h6>jessica.vaughn619@gmail.com</h6>
-          <a href="mailto:jessica.vaughn619@gmail.com" target="_blank">Send a message</a>
+          <a href="mailto:jessica.vaughn619@gmail.com" target="_blank" className="btn btn-primary">Send a message</a>
         </article>
 
         <article className="contact__option">
           <AiOutlineLinkedin className="contact__option-icon" />
           <h4>LinkedIn</h4>
           <h6>Jessica Vaughn</h6>
-          <a href="https://www.linkedin.com/in/jessicavaughn619/" target="_blank">View profile</a>
+          <a href="https://www.linkedin.com/in/jessicavaughn619/" target="_blank" className="btn btn-primary">View profile</a>
         </article>
       </div>
     </div>

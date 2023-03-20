@@ -6,17 +6,31 @@ const Experience = () => {
   return (
     <section id="experience">
     <h5>What Skills I Have</h5>
-    <h2>Frameworks & Languages</h2>
+    <h2>Languages & Frameworks</h2>
     
     <div className="container experience__container">
-      <div className="experience__frontend">
-        <h3>Frontend Development</h3>
+      <div className="experience__languages">
+        <h3>Languages</h3>
         <div className="experience__content">
           <article className="experience__details">
             <AiOutlineCheckCircle className="experience__details-icon" />
             <div>
-              <h4>HTML</h4>
+              <h4>JavaScript</h4>
               {/* <small className="text-light">Intermediate</small> */}
+            </div>
+          </article>
+          <article className="experience__details">
+            <AiOutlineCheckCircle className="experience__details-icon" />
+            <div>
+              <h4>Python</h4>
+              {/* <small className="text-light">Novice</small> */}
+            </div>
+          </article>
+          <article className="experience__details">
+            <AiOutlineCheckCircle className="experience__details-icon" />
+            <div>
+              <h4>HTML</h4>
+              {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
           <article className="experience__details">
@@ -26,13 +40,12 @@ const Experience = () => {
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
-          <article className="experience__details">
-            <AiOutlineCheckCircle className="experience__details-icon" />
-            <div>
-              <h4>JavaScript</h4>
-              {/* <small className="text-light">Novice</small> */}
-            </div>
-          </article>
+        </div>
+      </div>
+      
+      <div className="experience__frameworks">
+      <h3>Frameworks</h3>
+        <div className="experience__content">
           <article className="experience__details">
             <AiOutlineCheckCircle className="experience__details-icon" />
             <div>
@@ -47,30 +60,10 @@ const Experience = () => {
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
-        </div>
-      </div>
-      
-      <div className="experience__backend">
-      <h3>Backend Development</h3>
-        <div className="experience__content">
           <article className="experience__details">
             <AiOutlineCheckCircle className="experience__details-icon" />
             <div>
-              <h4>Python</h4>
-              {/* <small className="text-light">Novice</small> */}
-            </div>
-          </article>
-          <article className="experience__details">
-            <AiOutlineCheckCircle className="experience__details-icon" />
-            <div>
-              <h4>MySQL</h4>
-              {/* <small className="text-light">Novice</small> */}
-            </div>
-          </article>
-          <article className="experience__details">
-            <AiOutlineCheckCircle className="experience__details-icon" />
-            <div>
-              <h4>Node JS</h4>
+              <h4>Node</h4>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
