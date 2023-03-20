@@ -1,12 +1,11 @@
 .container.contact__container {
-    width: 58%;
     display: grid;
-    gap: 12%;
+    margin: 0 auto;
 }
 
 .contact__options {
     display: flex;
-    gap: 1.2rem;
+    gap: 2rem;
     justify-content: center;
 }
 

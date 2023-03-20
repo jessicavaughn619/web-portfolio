@@ -7,6 +7,10 @@ footer {
 }
 
 footer a {
+    color: var(--color-bg-variant);
+}
+
+footer a:hover {
     color: var(--color-bg);
 }
 
@@ -33,8 +37,8 @@ footer a {
 }
 
 .footer__socials a {
-    background: var(--color-bg);
-    color: var(--color-white);
+    background: var(--color-primary);
+    color: var(--color-bg-variant);
     padding: 0.8rem;
     border-radius: 0.7rem;
     display: flex;
@@ -43,7 +47,7 @@ footer a {
 
 .footer__socials a:hover {
     background: transparent;
-    color: var(--color-bg);
+    color: var(--color-bg-variant);
     border-color: var(--color-bg);
 }
 
