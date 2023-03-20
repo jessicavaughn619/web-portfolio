@@ -76,6 +76,14 @@ textarea {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
+    .contact__options {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        justify-content: center;
+        width: 100%;
+    }
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
@@ -84,5 +92,13 @@ textarea {
         display: flex;
         flex-direction: column;
         width: var(--container-width-sm);
+    }
+
+    .contact__options {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        justify-content: center;
+        width: 100%;
     }
 }
