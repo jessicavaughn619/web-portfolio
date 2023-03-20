@@ -54,20 +54,19 @@
 }
 
 .about__content {
-    text-align: center;
     background-color: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
-    text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
     width: 100%;
+    text-align: center;
 }
 
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
-    text-align: center;
+    text-align: justify;
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */

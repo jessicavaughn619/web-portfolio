@@ -30,11 +30,16 @@ const About = () => {
               <small>Building Portfolio</small>
             </article>
           </div> */}
-          <p>Hi, my name is Jessica Vaughn and I am a software engineer. I spent the past eight years working in public education.</p>
-          <p>I became interested in web development after completing a tutorial course and seeing how many languages and frameworks there were to master. 
-          I value working in a dynamic industry where continually developing new skill sets is essential and where there is always something new to learn.
-          I'd love to apply my passion for learning and software engineering skill set to build innovative and enriching web applications and user experiences.</p>
-          <p>My husband and I live in Denver - we love homebrewing and spending time with our dogs!</p>
+          <p>I am a software engineer trained through the Flatiron School bootcamp. I am well-versed in React, JavaScript, Python, HTML, and custom-CSS and am consistently working to learn additional languages and frameworks.
+          </p>
+          <p>I became interested in web development after completing a tutorial course and seeing how many languages and frameworks there were to master. As a former educator, I am passionate about learning and describe myself as a lifelong learner. I value working in a dynamic industry where continually developing skill sets is essential and where there is always something to learn.
+I spent the past eight years working in public education as a high school band teacher. Through this experience, I developed strong communication skills, learned to collaborate and problem-solve with a variety of stakeholders, and constantly modeled leadership. 
+I am incredibly detail-oriented thanks to years of honing my craft as a flute player and helping students refine their musical skills. Being an educator also taught me to balance my detail-oriented nature with time constraints and to be extremely efficient.
+          </p>
+          <p>I would love to apply my passion for learning, soft skills developed through teaching, and software engineering skill set to build innovative and enriching web applications and user experiences.
+          </p>
+          <p>When I'm not coding, I love to spend time with my husband Steve and our two dogs, Molly and Olivia. We built a home in Denver and are passionate about renovating, gardening, and home brewing beer! I also love to travel and am looking forward to taking my first international trip - to England! - this winter.
+          </p>
 
           <a href="#contact" className="btn btn-primary">Let's Connect</a>
         </div>

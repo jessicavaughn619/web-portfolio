@@ -19,6 +19,10 @@ header {
 }
 
 /* =============== HEADER SOCIALS =============== */
+.header__socials > a {
+    color: var(--color-bg-variant);
+}
+
 .header__socials {
     display: flex;
     flex-direction: column;
@@ -33,7 +37,7 @@ header {
     content: "";
     width: 1px;
     height: 2rem;
-    background: var(--color-light);
+    background: var(--color-bg-variant);
 }
 
 /* =============== ME =============== */
@@ -49,6 +53,7 @@ header {
 }
 
 /* =============== SCROLL DOWN =============== */
+
 .scroll__down {
     position: absolute;
     right: -2.3rem;
@@ -56,6 +61,7 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+    color: var(--color-bg-variant);
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
