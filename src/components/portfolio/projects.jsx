@@ -1,5 +1,5 @@
-import IMG1 from "../../assets/wufr.png"
-import IMG2 from "../../assets/brewery-taplist.png"
+import IMG1 from "../../assets/wufr.jpeg"
+import IMG2 from "../../assets/brewery-taplist.jpeg"
 
 
 const projects = [

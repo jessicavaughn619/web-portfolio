@@ -56,6 +56,13 @@ const Experience = () => {
           <article className="experience__details">
             <AiOutlineCheckCircle className="experience__details-icon" />
             <div>
+              <h4>React Next.js</h4>
+              {/* <small className="text-light">Novice</small> */}
+            </div>
+          </article>
+          <article className="experience__details">
+            <AiOutlineCheckCircle className="experience__details-icon" />
+            <div>
               <h4>UI Semantic</h4>
               {/* <small className="text-light">Novice</small> */}
             </div>
