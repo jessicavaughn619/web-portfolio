@@ -22,7 +22,7 @@ const Experience = () => {
           <article className="experience__details">
             <AiOutlineCheckCircle className="experience__details-icon" />
             <div>
-              <h4>Python</h4>
+              <h4>Python3</h4>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
@@ -77,7 +77,7 @@ const Experience = () => {
           <article className="experience__details">
             <AiOutlineCheckCircle className="experience__details-icon" />
             <div>
-              <h4>Node</h4>
+              <h4>Flask</h4>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
