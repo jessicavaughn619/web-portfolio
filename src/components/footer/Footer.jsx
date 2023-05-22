@@ -24,11 +24,11 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/jessicavaughn619/" target="_blank"><AiOutlineLinkedin /></a>
-        <a href="https://github.com/jessicavaughn619" target="_blank"><AiOutlineGithub /></a>
-        <a href="https://dev.to/jvaughn619" target="_blank"><SlNotebook /></a>
-        <a href="https://www.facebook.com/jessica.vaughn619/" target="_blank"><AiOutlineFacebook /></a>
-        <a href="https://www.instagram.com/jessicavaughn619/" target="_blank"><AiOutlineInstagram /></a>
+        <a href="https://www.linkedin.com/in/jessicavaughn619/" target="_blank" rel="noreferrer"><AiOutlineLinkedin /></a>
+        <a href="https://github.com/jessicavaughn619" target="_blank" rel="noreferrer"><AiOutlineGithub /></a>
+        <a href="https://dev.to/jvaughn619" target="_blank" rel="noreferrer"><SlNotebook /></a>
+        <a href="https://www.facebook.com/jessica.vaughn619/" target="_blank" rel="noreferrer"><AiOutlineFacebook /></a>
+        <a href="https://www.instagram.com/jessicavaughn619/" target="_blank" rel="noreferrer"><AiOutlineInstagram /></a>
       </div>
 
       <div className="footer__copyright">

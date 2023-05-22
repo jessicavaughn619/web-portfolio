@@ -1,5 +1,4 @@
 footer {
-    background: var(--color-primary);
     padding: 1rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -11,7 +10,7 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--color-bg);
+    color: var(--color-white);
 }
 
 .footer__logo {
@@ -53,7 +52,7 @@ footer a:hover {
 
 .footer__copyright {
     margin-bottom: 4rem;
-    color: var(--color-bg);
+    color: var(--color-bg-variant);
 }
 
 

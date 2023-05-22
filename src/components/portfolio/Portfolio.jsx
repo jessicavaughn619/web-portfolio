@@ -1,4 +1,3 @@
-import { data } from 'browserslist'
 import React from 'react'
 import "./portfolio.css"
 import projects from "./projects"
@@ -21,8 +20,8 @@ const Portfolio = () => {
                 <p>{technical}</p>
                 </div>
                 <div className="portfolio__item-cta">
-                  <a href={github} className="btn btn-primary" target="_blank">Github</a>
-                  <a href={demo} className="btn btn-primary" target="_blank">Live Demo</a>
+                  <a href={github} className="btn btn-primary" target="_blank" rel="noreferrer">Github</a>
+                  <a href={demo} className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
                 </div>
               </article>
             )

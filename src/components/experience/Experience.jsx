@@ -1,6 +1,10 @@
 import React from 'react'
 import "./experience.css"
-import {AiOutlineCheckCircle} from "react-icons/ai"
+import {AiOutlineConsoleSql, AiFillHtml5} from "react-icons/ai"
+import {DiJavascript1, DiPython, DiCss3, DiSass, DiReact, DiPostgresql} from "react-icons/di"
+import {TbBrandNextjs, TbFlask} from "react-icons/tb"
+import {SiSqlite, SiSemanticuireact} from "react-icons/si"
+import {FiTarget} from "react-icons/fi"
 
 const Experience = () => {
   return (
@@ -13,35 +17,28 @@ const Experience = () => {
         <h3>Languages</h3>
         <div className="experience__content">
           <article className="experience__details">
-            <AiOutlineCheckCircle className="experience__details-icon" />
+            <DiJavascript1 className="experience__details-icon" />
             <div>
               <h4>JavaScript</h4>
               {/* <small className="text-light">Intermediate</small> */}
             </div>
           </article>
           <article className="experience__details">
-            <AiOutlineCheckCircle className="experience__details-icon" />
+            <DiPython className="experience__details-icon" />
             <div>
               <h4>Python3</h4>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
           <article className="experience__details">
-            <AiOutlineCheckCircle className="experience__details-icon" />
+            <AiOutlineConsoleSql className="experience__details-icon" />
             <div>
               <h4>SQL</h4>
               {/* <small className="text-light">Intermediate</small> */}
             </div>
           </article>
           <article className="experience__details">
-            <AiOutlineCheckCircle className="experience__details-icon" />
-            <div>
-              <h4>HTML</h4>
-              {/* <small className="text-light">Novice</small> */}
-            </div>
-          </article>
-          <article className="experience__details">
-            <AiOutlineCheckCircle className="experience__details-icon" />
+            <DiCss3 className="experience__details-icon" />
             <div>
               <h4>CSS</h4>
               {/* <small className="text-light">Novice</small> */}
@@ -54,44 +51,58 @@ const Experience = () => {
       <h3>Frameworks</h3>
         <div className="experience__content">
           <article className="experience__details">
-            <AiOutlineCheckCircle className="experience__details-icon" />
+            <DiReact className="experience__details-icon" />
             <div>
-              <h4>React</h4>
+              <h4>React.js</h4>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
           <article className="experience__details">
-            <AiOutlineCheckCircle className="experience__details-icon" />
+            <TbBrandNextjs className="experience__details-icon" />
             <div>
               <h4>Next.js</h4>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
           <article className="experience__details">
-            <AiOutlineCheckCircle className="experience__details-icon" />
-            <div>
-              <h4>UI Semantic</h4>
-              {/* <small className="text-light">Novice</small> */}
-            </div>
-          </article>
-          <article className="experience__details">
-            <AiOutlineCheckCircle className="experience__details-icon" />
+            <TbFlask className="experience__details-icon" />
             <div>
               <h4>Flask</h4>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
           <article className="experience__details">
-            <AiOutlineCheckCircle className="experience__details-icon" />
+            <DiPostgresql className="experience__details-icon" />
             <div>
-              <h4>SQLite</h4>
+              <h4>PostgreSQL</h4>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
           <article className="experience__details">
-            <AiOutlineCheckCircle className="experience__details-icon" />
+            <SiSqlite className="experience__details-icon" />
+            <div>
+              <h4>SQLite3</h4>
+              {/* <small className="text-light">Novice</small> */}
+            </div>
+          </article>
+          <article className="experience__details">
+            <FiTarget className="experience__details-icon" />
             <div>
               <h4>SQLAlchemy</h4>
+              {/* <small className="text-light">Novice</small> */}
+            </div>
+          </article>
+          <article className="experience__details">
+            <DiSass className="experience__details-icon" />
+            <div>
+              <h4>Sass</h4>
+              {/* <small className="text-light">Novice</small> */}
+            </div>
+          </article>
+          <article className="experience__details">
+            <SiSemanticuireact className="experience__details-icon" />
+            <div>
+              <h4>Semantic-UI</h4>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>

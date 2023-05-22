@@ -3,7 +3,7 @@ import "./nav.css"
 import {BiHome} from "react-icons/bi"
 import {AiOutlineUser} from "react-icons/ai"
 import {BsBook} from "react-icons/bs"
-import {RiServiceLine} from "react-icons/ri"
+// import {RiServiceLine} from "react-icons/ri"
 import {HiOutlineMail} from "react-icons/hi"
 import {useState} from "react"
 

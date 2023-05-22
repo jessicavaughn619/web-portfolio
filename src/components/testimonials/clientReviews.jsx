@@ -1,4 +1,3 @@
-import React from "react"
 import AVTR1 from "../../assets/avatar1.jpeg"
 import AVTR2 from "../../assets/avatar2.jpeg"
 import AVTR3 from "../../assets/avatar3.jpeg"
