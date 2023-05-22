@@ -11,6 +11,7 @@
     border: 1px solid transparent;
     transition: var(--transition);
     justify-content: center;
+    box-shadow: 10px 5px 5px 5px var(--color-primary-variant);
 }
 
 .portfolio__item-img {

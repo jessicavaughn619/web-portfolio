@@ -17,6 +17,7 @@
     border: 1px solid transparent;
     transition: var(--transition);
     width: 100%;
+    box-shadow: 10px 5px 5px 5px var(--color-primary-variant);
 }
 
 .contact__option-icon {

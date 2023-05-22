@@ -61,6 +61,7 @@
     transition: var(--transition);
     width: 100%;
     text-align: center;
+    box-shadow: 10px 5px 5px 5px var(--color-primary-variant);
 }
 
 .about__content p {

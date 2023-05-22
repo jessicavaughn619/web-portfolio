@@ -1,6 +1,7 @@
 header {
     padding-top: 5rem;
     overflow: hidden;
+    height: 75vh;
 }
 
 .header__container {
@@ -52,12 +53,16 @@ header {
     box-shadow: 10px 5px 5px 5px var(--color-bg-variant);
 }
 
+img {
+    height: 100%;
+}
+
 /* =============== SCROLL DOWN =============== */
 
 .scroll__down {
     position: absolute;
     right: -2.3rem;
-    bottom: 15rem;
+    bottom: 16rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
@@ -74,7 +79,7 @@ header {
 /* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 75vh;
     }
     
     .header__socials,
