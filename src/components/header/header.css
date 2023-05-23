@@ -72,19 +72,25 @@ img {
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px) {
     header {
-        height: 75vh;
+        height: 85vh;
     }
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
     header {
-        height: 75vh;
+        height: 105vh;
     }
     
     .header__socials,
     .scroll__down {
         display: none;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    header {
+        height: 135vh;
     }
 }
 
