@@ -1,7 +1,7 @@
 import IMG1 from "../../assets/wufr.jpeg"
 import IMG2 from "../../assets/brewery-taplist.jpeg"
 import IMG3 from "../../assets/band-locker-cli.png"
-
+import IMG4 from "../../assets/myTunes.png"
 
 const projects = [
     
@@ -29,6 +29,14 @@ const projects = [
     technical: "Python3, SQLAlchemy, Alembic",
     github: "https://github.com/jessicavaughn619/band-lockers",
     demo: "https://www.youtube.com/watch?v=jzYhgUnqOOo"
+},
+{
+    id: 4,
+    image: IMG4,
+    title: "MyTunes",
+    technical: "Flask, React.js, Sass, PostgreSQL",
+    github: "https://github.com/jessicavaughn619/phase-4-project-mytunes",
+    demo: "https://youtu.be/DFA_5AwnnIw"
 }
 ]
 
