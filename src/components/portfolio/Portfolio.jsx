@@ -3,13 +3,16 @@ import "./portfolio.css"
 import projects from "./projects"
 
 const Portfolio = () => {
+
+  const sortedProjects = projects.sort((a, b) => a.order - b.order);
+
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
         {
-          projects.map(({id, image, title, technical, github, demo}) => {
+          sortedProjects.map(({id, image, title, technical, github, demo}) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">

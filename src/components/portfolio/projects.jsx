@@ -6,37 +6,41 @@ import IMG4 from "../../assets/myTunes.png"
 const projects = [
     
 {
-    id: 4,
+    id: 1,
     image: IMG1,
     title: "Wufr - An App for Single Dogs",
     technical: "JavaScript, CSS, HTML",
     github: "https://github.com/jessicavaughn619/phase-1-project-wufr",
-    demo: "https://youtu.be/WAt56Ji8z8I"
+    demo: "https://youtu.be/WAt56Ji8z8I",
+    order: 4
 },
 
 {
-    id: 3,
+    id: 2,
     image: IMG2,
     title: "Brewery Taplist",
     technical: "React, CSS, HTML",
     github: "https://github.com/jessicavaughn619/phase-2-project-brewery-taplist",
-    demo: "https://youtu.be/KThVwCYGJ3Q"
+    demo: "https://youtu.be/KThVwCYGJ3Q",
+    order: 2
 },
 {
-    id: 2,
+    id: 3,
     image: IMG3,
     title: "Locker Inventory CLI",
     technical: "Python3, SQLAlchemy, Alembic",
     github: "https://github.com/jessicavaughn619/band-lockers",
-    demo: "https://www.youtube.com/watch?v=jzYhgUnqOOo"
+    demo: "https://www.youtube.com/watch?v=jzYhgUnqOOo",
+    order: 3
 },
 {
-    id: 1,
+    id: 4,
     image: IMG4,
     title: "MyTunes",
-    technical: "Flask, React.js, Sass, PostgreSQL",
+    technical: "Flask, React, PostgreSQL, Sass",
     github: "https://github.com/jessicavaughn619/phase-4-project-mytunes",
-    demo: "https://youtu.be/DFA_5AwnnIw"
+    demo: "https://youtu.be/DFA_5AwnnIw",
+    order: 1
 }
 ]
 
