@@ -6,7 +6,7 @@ import IMG4 from "../../assets/myTunes.png"
 const projects = [
     
 {
-    id: 1,
+    id: 4,
     image: IMG1,
     title: "Wufr - An App for Single Dogs",
     technical: "JavaScript, CSS, HTML",
@@ -15,7 +15,7 @@ const projects = [
 },
 
 {
-    id: 2,
+    id: 3,
     image: IMG2,
     title: "Brewery Taplist",
     technical: "React, CSS, HTML",
@@ -23,7 +23,7 @@ const projects = [
     demo: "https://youtu.be/KThVwCYGJ3Q"
 },
 {
-    id: 3,
+    id: 2,
     image: IMG3,
     title: "Locker Inventory CLI",
     technical: "Python3, SQLAlchemy, Alembic",
@@ -31,7 +31,7 @@ const projects = [
     demo: "https://www.youtube.com/watch?v=jzYhgUnqOOo"
 },
 {
-    id: 4,
+    id: 1,
     image: IMG4,
     title: "MyTunes",
     technical: "Flask, React.js, Sass, PostgreSQL",
