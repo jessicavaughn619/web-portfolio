@@ -1,7 +1,7 @@
 header {
     padding-top: 5rem;
     overflow: hidden;
-    height: 75vh;
+    height: 120vh;
 }
 
 .header__container {
@@ -72,14 +72,14 @@ img {
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px) {
     header {
-        height: 85vh;
+        height: 120vh;
     }
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
     header {
-        height: 105vh;
+        height: 120vh;
     }
     
     .header__socials,

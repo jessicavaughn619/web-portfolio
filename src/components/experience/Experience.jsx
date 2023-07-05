@@ -2,8 +2,8 @@ import React from 'react'
 import "./experience.css"
 import {AiOutlineConsoleSql, AiFillHtml5} from "react-icons/ai"
 import {DiJavascript1, DiPython, DiCss3, DiSass, DiReact, DiPostgresql} from "react-icons/di"
-import {TbBrandNextjs, TbFlask} from "react-icons/tb"
-import {SiSqlite, SiSemanticuireact} from "react-icons/si"
+import {TbFlask} from "react-icons/tb"
+import {SiSqlite, SiSemanticuireact, SiTailwindcss} from "react-icons/si"
 import {FiTarget} from "react-icons/fi"
 
 const Experience = () => {
@@ -26,7 +26,7 @@ const Experience = () => {
           <article className="experience__details">
             <DiPython className="experience__details-icon" />
             <div>
-              <h4>Python3</h4>
+              <h4>Python</h4>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
@@ -44,23 +44,23 @@ const Experience = () => {
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
+          <article className="experience__details">
+            <AiFillHtml5 className="experience__details-icon" />
+            <div>
+              <h4>HTML</h4>
+              {/* <small className="text-light">Novice</small> */}
+            </div>
+          </article>
         </div>
       </div>
       
       <div className="experience__frameworks">
-      <h3>Frameworks</h3>
+      <h3>Frameworks & Tools</h3>
         <div className="experience__content">
           <article className="experience__details">
             <DiReact className="experience__details-icon" />
             <div>
               <h4>React.js</h4>
-              {/* <small className="text-light">Novice</small> */}
-            </div>
-          </article>
-          <article className="experience__details">
-            <TbBrandNextjs className="experience__details-icon" />
-            <div>
-              <h4>Next.js</h4>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
@@ -89,6 +89,13 @@ const Experience = () => {
             <FiTarget className="experience__details-icon" />
             <div>
               <h4>SQLAlchemy</h4>
+              {/* <small className="text-light">Novice</small> */}
+            </div>
+          </article>
+          <article className="experience__details">
+            <SiTailwindcss className="experience__details-icon" />
+            <div>
+              <h4>Tailwind</h4>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
