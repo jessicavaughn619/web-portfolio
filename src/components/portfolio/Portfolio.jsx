@@ -31,8 +31,7 @@ const Portfolio = () => {
         spaceBetween={10}
         slidesPerView={1}
         modules={[Navigation, Pagination]}
-        navigation={{draggable: true}}
-        pagination={{clickable: true}}>
+        navigation={{draggable: true}}>
         {allProjects}
       </Swiper>
       </div>

@@ -18,7 +18,6 @@
 }
 
 .swiper-pagination-bullets {
-    bottom: 45px!important;
     color: var(--color-light)!important;
 }
 
@@ -39,7 +38,6 @@
     left: 40px!important;
     color: var(--color-light,var(--color-white))!important;
 }
-
 
 .portfolio__container-image {
     display: block;
@@ -62,6 +60,7 @@
     border: 1px solid transparent;
     transition: var(--transition);
     width: 100%;
+    max-width: 40rem;
     box-shadow: 10px 5px 5px 5px var(--color-primary-variant);
 }
 
@@ -92,7 +91,6 @@
 .portfolio__item-cta {
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
     justify-content: center;
 }
 
@@ -114,5 +112,9 @@
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+
+    .project_card {
+        padding: 1.5rem;
     }
 }
