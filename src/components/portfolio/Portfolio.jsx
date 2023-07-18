@@ -1,10 +1,11 @@
 import React from 'react'
 import projects from "./projects"
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Scrollbar, Mousewheel } from 'swiper';
+import { Navigation, Pagination } from 'swiper';
 import ProjectCard from './ProjectCard'
 import 'swiper/css';
-import 'swiper/css/scrollbar';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import "./portfolio.css"
 
 const Portfolio = () => {
@@ -29,9 +30,9 @@ const Portfolio = () => {
       <Swiper
         spaceBetween={10}
         slidesPerView={1}
-        modules={[Scrollbar, Mousewheel]}
-        mousewheel={true}
-        scrollbar={{draggable: true }}>
+        modules={[Navigation, Pagination]}
+        navigation={{draggable: true}}
+        pagination={{clickable: true}}>
         {allProjects}
       </Swiper>
       </div>

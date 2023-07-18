@@ -49,11 +49,14 @@ body {
 }
 
 h1, 
-h2, 
+h2 {
+    font-size: 2rem;
+}
 h3, 
 h4, 
 h5 {
     font-weight: 500;
+    font-size: 1.25rem;
 }
 
 h1 {
@@ -109,6 +112,10 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+}
+
+#shadow-host-companion {
+    margin-top: 2rem;
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */

@@ -2,7 +2,7 @@ footer {
     padding: 1rem 0;
     text-align: center;
     font-size: 0.9rem;
-    margin-top: 7rem;
+    margin-top: 2rem;
 }
 
 footer a {
@@ -25,14 +25,14 @@ footer a:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin: 0 auto 3rem;
+    margin: 0 auto 1rem;
 }
 
 .footer__socials {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 .footer__socials a {
