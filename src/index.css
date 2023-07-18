@@ -141,5 +141,8 @@ img {
     section > h2 {
         margin-bottom: 2rem;
     }
+    :root {
+        --swiper-navigation-size: 20px;
+    }
 }
 

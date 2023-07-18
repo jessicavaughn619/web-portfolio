@@ -17,18 +17,6 @@
     align-items: center;
 }
 
-.swiper-pagination-bullets {
-    color: var(--color-light)!important;
-}
-
-.swiper-pagination-bullet {
-    background: var(--color-light)!important;
-}
-
-.swiper-pagination-bullet-active {
-    background: var(--color-white)!important;
-}
-
 .swiper-button-next {
     right: 40px!important;
     color: var(--color-light,var(--color-white))!important;
@@ -116,5 +104,13 @@
 
     .project_card {
         padding: 1.5rem;
+    }
+
+    .swiper-button-next {
+        margin-right: -5px;
+    }
+    
+    .swiper-button-prev {
+        margin-left: -5px;
     }
 }

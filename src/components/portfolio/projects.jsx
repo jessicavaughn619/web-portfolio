@@ -30,7 +30,7 @@ const projects = [
 {
     id: 3,
     image: IMG3,
-    title: "Locker Inventory CLI",
+    title: "Locker CLI",
     technical: "Python3, SQLAlchemy, Alembic",
     description: "Command Line Interface to manage student locker assignments",
     github: "https://github.com/jessicavaughn619/band-lockers",
