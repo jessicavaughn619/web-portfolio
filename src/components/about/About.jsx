@@ -36,11 +36,14 @@ const About = () => {
               <small>Building Portfolio</small>
             </article>
           </div> */}
-        <p>I am a software engineer fluent in JavaScript, Python, SQL, HTML, and CSS. 
-        I'm experienced with React, Flask, and SQLAlchemy frameworks as well as Tailwind and Sass for custom-CSS.
+        <p>Passionate full-stack Software Engineer with extensive background in education and web-development. 
+        I am dedicated to crafting impactful solutions and am driven by a profound appreciation for intricate details. 
+        I thrive within collaborative environments, encourage teamwork, and actively engage with peers to develop innovative ideas. 
+        Committed to continuous learning, I eagerly embrace new technologies and am constantly striving to advance as a lifelong learner. 
+        Currently seeking new opportunities in front-end, back-end, or full-stack web development. 
         </p>
-        <p>I became interested in web development after completing a tutorial course and seeing how many languages and frameworks there were to master. 
-        As a former educator, I am passionate about learning and describe myself as a lifelong learner.
+        <p>I became interested in web development after completing a tutorial course and seeing how many languages and frameworks 
+        there were to master. As a former educator, I am passionate about learning and describe myself as a lifelong learner.
         </p>
         <div className="see-more">
         <button className="see-more-btn" onClick={handleClick}>{readMore? "Read less..." : "Read more..."}</button>
@@ -53,12 +56,10 @@ const About = () => {
           and constantly modeled leadership. I am incredibly detail-oriented thanks to years of honing my craft as a flute player 
           and helping students refine their musical skills. Being an educator also taught me to balance my detail-oriented nature with time 
           constraints and to be extremely efficient.</p>
-          <p>I would love to apply my passion for learning, soft skills developed through teaching, 
-          and software engineering skill set to build innovative and enriching web applications and user experiences.
-          </p>
-          <p>When I'm not coding, I love to spend time with my husband Steve and our two dogs, Molly and Olivia. 
-          We built a home in Denver and are passionate about renovating, gardening, and home brewing beer! 
-          I also love to travel and am looking forward to taking my first international trip - to England! - this winter.
+          <p>When I'm not coding, you'll find me spending time with my husband, Steve, and our two dogs, Molly and Olivia. 
+          We built a home in Denver in 2017 and are passionate about renovating, gardening, 
+          and home brewing beer! I also love to travel and am looking forward to taking my first international trip - 
+          to England! - this winter.
           </p>
           </div> : null}
         
