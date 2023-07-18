@@ -65,9 +65,24 @@
 }
 
 .about__content p {
-    margin: 2rem 0 2.6rem;
+    margin: 2rem 0;
     color: var(--color-light);
     text-align: justify;
+}
+
+.see-more {
+    color: var(--color-white);
+    margin-bottom: 2rem;
+}
+
+.see-more-btn {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */

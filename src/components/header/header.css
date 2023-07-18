@@ -1,7 +1,7 @@
 header {
-    padding-top: 5rem;
+    padding: 5rem 0 1rem;
     overflow: hidden;
-    height: 120vh;
+    height: 100%;
 }
 
 .header__container {
@@ -45,7 +45,7 @@ header {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
-    position: absolute;
+    position: relative;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     overflow: hidden;
@@ -69,28 +69,11 @@ img {
     color: var(--color-bg-variant);
 }
 
-/* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
-@media screen and (max-width: 1024px) {
-    header {
-        height: 120vh;
-    }
-}
-
 /* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
-@media screen and (max-width: 600px) {
-    header {
-        height: 120vh;
-    }
-    
+@media screen and (max-width: 600px) {   
     .header__socials,
     .scroll__down {
         display: none;
-    }
-}
-
-@media screen and (max-width: 385px) {
-    header {
-        height: 135vh;
     }
 }
 
