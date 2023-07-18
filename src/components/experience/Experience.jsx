@@ -19,35 +19,35 @@ const Experience = () => {
           <article className="experience__details">
             <DiJavascript1 className="experience__details-icon" />
             <div>
-              <h4>JavaScript</h4>
+              <p>JavaScript</p>
               {/* <small className="text-light">Intermediate</small> */}
             </div>
           </article>
           <article className="experience__details">
             <DiPython className="experience__details-icon" />
             <div>
-              <h4>Python</h4>
+              <p>Python</p>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
           <article className="experience__details">
             <AiOutlineConsoleSql className="experience__details-icon" />
             <div>
-              <h4>SQL</h4>
+              <p>SQL</p>
               {/* <small className="text-light">Intermediate</small> */}
             </div>
           </article>
           <article className="experience__details">
             <DiCss3 className="experience__details-icon" />
             <div>
-              <h4>CSS</h4>
+              <p>CSS</p>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
           <article className="experience__details">
             <AiFillHtml5 className="experience__details-icon" />
             <div>
-              <h4>HTML</h4>
+              <p>HTML</p>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
@@ -60,56 +60,56 @@ const Experience = () => {
           <article className="experience__details">
             <DiReact className="experience__details-icon" />
             <div>
-              <h4>React.js</h4>
+              <p>React.js</p>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
           <article className="experience__details">
             <TbFlask className="experience__details-icon" />
             <div>
-              <h4>Flask</h4>
+              <p>Flask</p>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
           <article className="experience__details">
             <DiPostgresql className="experience__details-icon" />
             <div>
-              <h4>PostgreSQL</h4>
+              <p>PostgreSQL</p>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
           <article className="experience__details">
             <SiSqlite className="experience__details-icon" />
             <div>
-              <h4>SQLite3</h4>
+              <p>SQLite3</p>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
           <article className="experience__details">
             <FiTarget className="experience__details-icon" />
             <div>
-              <h4>SQLAlchemy</h4>
+              <p>SQLAlchemy</p>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
           <article className="experience__details">
             <SiTailwindcss className="experience__details-icon" />
             <div>
-              <h4>Tailwind</h4>
+              <p>Tailwind</p>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
           <article className="experience__details">
             <DiSass className="experience__details-icon" />
             <div>
-              <h4>Sass</h4>
+              <p>Sass</p>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>
           <article className="experience__details">
             <SiSemanticuireact className="experience__details-icon" />
             <div>
-              <h4>Semantic-UI</h4>
+              <p>Semantic-UI</p>
               {/* <small className="text-light">Novice</small> */}
             </div>
           </article>

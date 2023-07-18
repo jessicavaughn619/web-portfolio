@@ -28,10 +28,11 @@
 .experience__details {
     display: flex;
     gap: 1rem;
+    align-items: center;
 }
 
 .experience__details-icon {
-    margin-top: 6px;
+    font-size: 1.5rem;
     color: var(--color-primary);
 }
 
