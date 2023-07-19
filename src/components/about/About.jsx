@@ -37,10 +37,10 @@ const About = () => {
             </article>
           </div> */}
         <p>Passionate full-stack Software Engineer with extensive background in education and web-development. 
-        I am dedicated to crafting impactful solutions and am driven by a profound appreciation for intricate details. 
-        I thrive within collaborative environments, encourage teamwork, and actively engage with peers to develop innovative ideas. 
-        Committed to continuous learning, I eagerly embrace new technologies and am constantly striving to advance as a lifelong learner. 
-        Currently seeking new opportunities in front-end, back-end, or full-stack web development. 
+        Dedicated to crafting impactful solutions and driven by an appreciation for intricate details. 
+        I thrive within collaborative environments and actively engage with peers to develop innovative ideas. 
+        I embrace new technologies in the pursuit of lifelong learning. 
+        Seeking new opportunities in front-end, back-end, or full-stack web development.
         </p>
         <p>I became interested in web development after completing a tutorial course and seeing how many languages and frameworks 
         there were to master. As a former educator, I am passionate about learning and describe myself as a lifelong learner.
