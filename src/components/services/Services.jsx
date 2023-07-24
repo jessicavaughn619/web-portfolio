@@ -1,8 +1,7 @@
-import React from 'react'
 import "./services.css"
 import {BsCheck2} from "react-icons/bs"
 
-const Services = () => {
+export default function Services() {
   return (
     <section id="services">
     <h5>What I Offer</h5>
@@ -115,5 +114,3 @@ const Services = () => {
     </section>
   )
 }
-
-export default Services

@@ -1,19 +1,13 @@
-import React from 'react'
 import "./testimonials.css"
 import clientReviews from "./clientReviews"
-
-// import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-const Testimonials = () => {
+export default function Testimonials() {
   return (
     <section id="testimonials">
       <h5>Reviews from Clients</h5>
@@ -45,5 +39,3 @@ const Testimonials = () => {
     </section>
   )
 }
-
-export default Testimonials

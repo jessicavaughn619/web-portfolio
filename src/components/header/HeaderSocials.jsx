@@ -1,11 +1,10 @@
-import React from 'react'
 import {AiOutlineLinkedin} from "react-icons/ai"
 import {AiOutlineGithub} from "react-icons/ai"
 import {AiOutlineFacebook} from "react-icons/ai"
 import {AiOutlineInstagram} from "react-icons/ai"
 import {SlNotebook} from "react-icons/sl"
 
-const HeaderSocials = () => {
+export default function HeaderSocials() {
   return (
     <div className="header__socials">
         <a href="https://www.linkedin.com/in/jessicavaughn619/" target="_blank" rel="noreferrer"><AiOutlineLinkedin /></a>
@@ -16,5 +15,3 @@ const HeaderSocials = () => {
     </div>
   )
 }
-
-export default HeaderSocials

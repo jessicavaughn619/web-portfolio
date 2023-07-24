@@ -1,19 +1,9 @@
-import React from 'react'
 import "./header.css"
 import CTA from "./CTA"
-import ME from "../../assets/avatar.png"
-import FAM from "../../assets/family.jpeg"
+import ME from "../../assets/headshot.png"
 import HeaderSocials from "./HeaderSocials"
 
-const Header = () => {
-
-  function handleMouseOver(event) {
-    event.target.src = FAM
-  }
-
-  function handleMouseOut(event) {
-    event.target.src = ME
-  }
+export default function Header() {
 
   return (
     <header>
@@ -24,12 +14,10 @@ const Header = () => {
         <CTA />
         <HeaderSocials />
         <div className="me">
-          <img src={ME} alt="Jessica Vaughn" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
+          <img src={ME} alt="Jessica Vaughn"/>
         </div>
-        <a href="#contact" className="scroll__down">Scroll Down</a>
+        <a href="/#contact" className="scroll__down">Scroll Down</a>
       </div>
     </header>
   )
 }
-
-export default Header

@@ -21,7 +21,7 @@
 
 .experience__content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(115px, 1fr));
     gap: 2rem;
 }
 
@@ -34,6 +34,10 @@
 .experience__details-icon {
     font-size: 1.5rem;
     color: var(--color-primary);
+}
+
+.experience__tools {
+    grid-column: 1/3;
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
@@ -51,6 +55,10 @@
     .experience__content {
         padding: 1rem;
     }
+
+    .experience__tools {
+        grid-column: 1;
+    }
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
@@ -62,5 +70,9 @@
     .experience__container > div {
         width: 100%;
         padding: 2rem 1rem;
+    }
+
+    .experience__tools {
+        grid-column: 1;
     }
 }

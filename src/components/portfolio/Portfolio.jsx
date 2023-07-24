@@ -1,4 +1,3 @@
-import React from 'react'
 import projects from "./projects"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination } from 'swiper';
@@ -8,12 +7,13 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import "./portfolio.css"
 
-const Portfolio = () => {
+export default function Portfolio() {
 
   const sortedProjects = projects.sort((a, b) => a.order - b.order);
 
   const allProjects = sortedProjects.map((project) => (
-    <SwiperSlide>
+    <SwiperSlide
+      key={project.id}>
       <ProjectCard
         key={project.id}
         project={project}
@@ -38,5 +38,3 @@ const Portfolio = () => {
     </section>
   )
 }
-
-export default Portfolio

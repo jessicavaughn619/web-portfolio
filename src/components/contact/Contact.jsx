@@ -1,10 +1,8 @@
-import React from 'react'
 import "./contact.css"
 import {HiOutlineMail} from "react-icons/hi"
 import {AiOutlineLinkedin} from "react-icons/ai"
 
-const Contact = () => {
-
+export default function Contact() {
   return (
     <section id="contact">
     <h5>Get In Touch</h5>
@@ -32,5 +30,3 @@ const Contact = () => {
     </section>
   )
 }
-
-export default Contact

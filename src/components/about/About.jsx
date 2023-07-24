@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import "./about.css"
 // import {FiAward} from "react-icons/fi"
 // import {FiUsers} from "react-icons/fi"
 // import {AiFillFolderOpen} from "react-icons/ai"
 
-const About = () => {
+export default function About() {
   const [readMore, setReadMore] = useState(false)
 
   function handleClick() {
@@ -69,5 +69,3 @@ const About = () => {
     </section>
   )
 }
-
-export default About
