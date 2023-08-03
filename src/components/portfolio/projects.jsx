@@ -14,6 +14,7 @@ const projects = [
     description: "Swipe right to save your favorite dog images",
     github: "https://github.com/jessicavaughn619/phase-1-project-wufr",
     demo: "https://youtu.be/WAt56Ji8z8I",
+    live: "",
     order: 5
 },
 
@@ -25,6 +26,7 @@ const projects = [
     description: "Track inventory and manage current beer list for breweries of all sizes",
     github: "https://github.com/jessicavaughn619/phase-2-project-brewery-taplist",
     demo: "https://youtu.be/KThVwCYGJ3Q",
+    live: "",
     order: 3
 },
 {
@@ -35,6 +37,7 @@ const projects = [
     description: "Command Line Interface to manage student locker assignments",
     github: "https://github.com/jessicavaughn619/band-lockers",
     demo: "https://www.youtube.com/watch?v=jzYhgUnqOOo",
+    live: "",
     order: 4
 },
 {
@@ -45,6 +48,7 @@ const projects = [
     description: "Create unique playlists and listen to songs through Spotify",
     github: "https://github.com/jessicavaughn619/phase-4-project-mytunes",
     demo: "https://youtu.be/DFA_5AwnnIw",
+    live: "",
     order: 2
 },
 {
@@ -55,6 +59,7 @@ const projects = [
     description: "Purchase and review products through small-business e-commerce site",
     github: "https://github.com/jessicavaughn619/phase-5-craftsy",
     demo: "https://youtu.be/jWwT2GTx5rs",
+    live: "https://craftsy.onrender.com/",
     order: 1
 }
 ]

@@ -1,7 +1,7 @@
 import "./portfolio.css"
 
 export default function ProjectCard({ project }) {
-    const {image, title, technical, description, github, demo} = project;
+    const {image, title, technical, description, github, demo, live} = project;
 
     return (
         <div className="project_card">
@@ -18,6 +18,7 @@ export default function ProjectCard({ project }) {
             <div className="portfolio__item-cta">
                 <a href={github} className="btn btn-primary" target="_blank" rel="noreferrer">Github</a>
                 <a href={demo} className="btn btn-primary" target="_blank" rel="noreferrer">Demo</a>
+                {live ? <a href={live} className="btn btn-primary" target="_blank" rel="noreferrer">Live</a>: null}
             </div>
         </div>
     )

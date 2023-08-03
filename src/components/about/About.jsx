@@ -62,8 +62,9 @@ export default function About() {
           to England! - this winter.
           </p>
           </div> : null}
-        
+        <div className="btn-wrapper">
         <a href="#contact" className="btn btn-primary">Let's Connect</a>
+        </div>
         </div>
       </div>
     </section>
