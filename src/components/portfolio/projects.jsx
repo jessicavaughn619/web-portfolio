@@ -59,7 +59,7 @@ const projects = [
     description: "Purchase and review products through small-business e-commerce site",
     github: "https://github.com/jessicavaughn619/phase-5-craftsy",
     demo: "https://youtu.be/jWwT2GTx5rs",
-    live: "https://craftsy.onrender.com/",
+    live: "https://lajuntacrafts.com/",
     order: 1
 }
 ]
