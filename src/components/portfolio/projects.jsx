@@ -54,8 +54,8 @@ const projects = [
 {
     id: 5,
     image: IMG5,
-    title: "Craftsy",
-    technical: "Flask, React, PostgreSQL, Tailwind",
+    title: "La Junta Crafts",
+    technical: "Flask, React, Render, PostgreSQL, Tailwind",
     description: "Purchase and review products through small-business e-commerce site",
     github: "https://github.com/jessicavaughn619/phase-5-craftsy",
     demo: "https://youtu.be/jWwT2GTx5rs",
