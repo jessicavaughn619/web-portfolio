@@ -36,26 +36,25 @@ export default function About() {
               <small>Building Portfolio</small>
             </article>
           </div> */}
-        <p>Full-stack Software Engineer with extensive background in education and web-development. 
-        Dedicated to crafting solutions and driven by an appreciation for details. 
-        I thrive in collaborative environments and actively engage with peers to develop innovative ideas. 
-        I embrace new technologies in the pursuit of lifelong learning. 
-        Seeking opportunities in front-end, back-end, or full-stack web development.
-        </p>
-        <p>I became interested in web development after completing a tutorial course and seeing how many languages and frameworks 
-        there were to master. As a former educator, I am passionate about learning and describe myself as a lifelong learner.
+        <p>As a Freelance Software Engineer, I design, build, deploy, and maintain software solutions for various clients, using my skills in Python, JavaScript, React, Flask, and SQL. 
+        I enjoy working on challenging projects that require creativity, problem-solving, and collaboration. 
+        With a background in education, I also have strong communication, leadership, and organizational skills that enable me to work effectively with diverse teams and stakeholders.
+        I am passionate about learning and developing new technologies, which led me to pursue a career in web development. 
         </p>
         <div className="see-more">
         <button className="see-more-btn" onClick={handleClick}>{readMore? "Read less..." : "Read more..."}</button>
         </div>
         {readMore ?
         <div>
-          <p>I value working in a dynamic industry where continually developing skill sets is essential and where there is always something to learn. 
-          I spent the past eight years working in public education as a high school band teacher. Through this experience, 
-          I developed strong communication skills, learned to collaborate and problem-solve with a variety of stakeholders, 
-          and constantly modeled leadership. I am incredibly detail-oriented thanks to years of honing my craft as a flute player 
-          and helping students refine their musical skills. Being an educator also taught me to balance my detail-oriented nature with time 
-          constraints and to be extremely efficient.</p>
+          <p>I graduated from the Flatiron School software engineering bootcamp and completed a Web Development Bootcamp and a DevOps Bootcamp from Udemy in 2023, 
+        where I learned the latest tools and frameworks for creating dynamic and responsive web applications. 
+        I also hold a Master of Education in Music Education from Ithaca College, 
+        and a Bachelor of Education in Music Education from University of Colorado Boulder. 
+        I taught instrumental music at two high schools for eight years, 
+        where my colleagues and I achieved the highest state marching band ranking in Cherry Creek High School history, 
+        and grew the instrumental music program enrollment at Gateway High School by 44%. 
+        I am looking for opportunities to apply my web development and education skills in front-end, back-end, 
+        or full-stack roles.</p>
           <p>When I'm not coding, you'll find me spending time with my husband, Steve, and our two dogs, Molly and Olivia. 
           We built a home in Denver in 2017 and are passionate about renovating, gardening, 
           and home brewing beer! I also love to travel and am looking forward to taking my first international trip - 
