@@ -149,5 +149,8 @@ img {
     :root {
         --swiper-navigation-size: 20px;
     }
+    .btn-wrapper {
+        width: 80%;
+    }
 }
 

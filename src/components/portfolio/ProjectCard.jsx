@@ -17,8 +17,8 @@ export default function ProjectCard({ project }) {
             </div>
             <div className="portfolio__item-cta">
                 <a href={github} className="btn btn-primary" target="_blank" rel="noreferrer">Github</a>
-                <a href={demo} className="btn btn-primary" target="_blank" rel="noreferrer">Demo</a>
-                {live ? <a href={live} className="btn btn-primary" target="_blank" rel="noreferrer">Live</a>: null}
+                {demo && <a href={demo} className="btn btn-primary" target="_blank" rel="noreferrer">Demo</a>}
+                {live && <a href={live} className="btn btn-primary" target="_blank" rel="noreferrer">Live</a>}
             </div>
         </div>
     )
