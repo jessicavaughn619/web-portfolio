@@ -30,6 +30,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(115px, 1fr));
     gap: 2rem;
+    padding: .75rem .5rem;
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
