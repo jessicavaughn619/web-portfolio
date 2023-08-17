@@ -1,22 +1,9 @@
-import IMG1 from "../../assets/wufr.jpeg"
 import IMG2 from "../../assets/brewery-taplist.jpeg"
 import IMG3 from "../../assets/band-locker-cli.png"
 import IMG4 from "../../assets/myTunes.png"
 import IMG5 from "../../assets/craftsy.png"
 
 const projects = [
-    
-{
-    id: 1,
-    image: IMG1,
-    title: "Wufr",
-    technical: "JavaScript",
-    description: "Swipe right to save your favorite dog images",
-    github: "https://github.com/jessicavaughn619/phase-1-project-wufr",
-    demo: "https://youtu.be/WAt56Ji8z8I",
-    live: "",
-    order: 5
-},
 
 {
     id: 2,
