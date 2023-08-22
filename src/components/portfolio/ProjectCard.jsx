@@ -16,9 +16,9 @@ export default function ProjectCard({ project }) {
                 <p>{description}</p>
             </div>
             <div className="portfolio__item-cta">
-                <a href={github} className="btn btn-primary" target="_blank" rel="noreferrer">Github</a>
                 {demo && <a href={demo} className="btn btn-primary" target="_blank" rel="noreferrer">Demo</a>}
                 {live && <a href={live} className="btn btn-primary" target="_blank" rel="noreferrer">Live</a>}
+                <a href={github} className="btn btn-primary" target="_blank" rel="noreferrer">Github</a>
             </div>
         </div>
     )
