@@ -8,7 +8,7 @@ export default function About() {
       <div className="full-container about__container">
 
         <div className="about__content">
-        <p>I am a freelance software engineer open to new opportunities in frontend, backend, or full stack web development.</p>
+        <p>I am a freelance software engineer open to new opportunities in front end, back end, or full stack web development.</p>
         <p>Prior to software engineering, I worked in education for eight years, where I taught music, mentored students, and fostered lifelong learners. 
           My love for learning, interest in understanding how things work,
           and desire to positively impact my community initiated my transition to software engineering.</p>
