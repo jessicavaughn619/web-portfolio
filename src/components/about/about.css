@@ -67,7 +67,7 @@
 .about__content p {
     margin: 2rem 0;
     color: var(--color-light);
-    text-align: justify;
+    text-align: start;
 }
 
 .see-more {

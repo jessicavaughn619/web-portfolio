@@ -129,4 +129,8 @@
     .swiper-button-prev {
         margin-left: -5px;
     }
+
+    .skills {
+        font-size: x-small;
+    }
 }
