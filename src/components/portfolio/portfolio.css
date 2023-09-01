@@ -87,6 +87,22 @@
     font-size: small;
 }
 
+.skills__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .25rem;
+}
+
+.skills {
+    justify-content: center;
+    background-color: var(--color-light);
+    color: var(--color-bg-variant);
+    border-radius: 15px;
+    padding: 0 1rem;
+    font-size: small;
+}
+
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px) {
     .portfolio__container {

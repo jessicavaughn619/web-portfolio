@@ -18,6 +18,7 @@
 .experience__details {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .experience__details-icon {

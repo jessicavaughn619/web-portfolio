@@ -10,9 +10,23 @@ header {
     position: relative;
 }
 
+.grid__container {
+    display: grid;
+}
+
+#get-to-know-container {
+    grid-template-columns: 1fr;
+    width: var(--container-width-sm);
+    margin: 0 auto;
+    gap: 2rem;
+    align-items: flex-start;
+    position: relative;
+}
+
 /* =============== CTA =============== */
 .cta {
     margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -29,8 +43,8 @@ header {
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
-    bottom: 10rem;
+    left: -4rem;
+    top: 10rem;
 }
 
 .header__socials:after {
@@ -41,28 +55,26 @@ header {
 }
 
 /* =============== ME =============== */
-.me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    position: relative;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    overflow: hidden;
-    border-radius: 12rem 12rem 0 0;
-    box-shadow: 10px 5px 5px 5px var(--color-bg-variant);
-}
-
 img {
     height: 100%;
+}
+
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    position: relative;
+    margin-top: 4rem;
+    overflow: hidden;
+    height: 65vh;
+    border-radius: 12rem 12rem 0 0;
+    box-shadow: 10px 5px 5px 5px var(--color-bg-variant);
 }
 
 /* =============== SCROLL DOWN =============== */
 
 .scroll__down {
     position: absolute;
-    right: -2.3rem;
-    bottom: 16rem;
+    right: -5rem;
+    top: 15rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
@@ -70,10 +82,16 @@ img {
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
-@media screen and (max-width: 600px) {   
+@media screen and (max-width: 1025px) {   
     .header__socials,
     .scroll__down {
         display: none;
     }
 }
 
+@media screen and (min-width: 734px) { 
+    #get-to-know-container {
+        grid-template-columns: .75fr 1fr;
+        width: 100%;
+    }
+}
