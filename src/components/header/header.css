@@ -1,5 +1,5 @@
 header {
-    padding: 5rem 0 1rem;
+    padding: 3rem 0 1rem;
     overflow: hidden;
     height: 100%;
 }
@@ -54,21 +54,6 @@ header {
     background: var(--color-bg-variant);
 }
 
-/* =============== ME =============== */
-img {
-    height: 100%;
-}
-
-.me {
-    background: linear-gradient(var(--color-primary), transparent);
-    position: relative;
-    margin-top: 4rem;
-    overflow: hidden;
-    height: 65vh;
-    border-radius: 12rem 12rem 0 0;
-    box-shadow: 10px 5px 5px 5px var(--color-bg-variant);
-}
-
 /* =============== SCROLL DOWN =============== */
 
 .scroll__down {
@@ -89,9 +74,9 @@ img {
     }
 }
 
-@media screen and (min-width: 734px) { 
+/* @media screen and (min-width: 734px) { 
     #get-to-know-container {
         grid-template-columns: .75fr 1fr;
         width: 100%;
     }
-}
+} */

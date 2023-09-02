@@ -84,23 +84,24 @@
 
 .portfolio__item-description {
     font-style: italic;
-    font-size: small;
+    font-size: 16px;
 }
 
 .skills__container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: .25rem;
+    gap: .75rem;
 }
 
 .skills {
     justify-content: center;
-    background-color: var(--color-light);
-    color: var(--color-bg-variant);
+    background-color: var(--color-primary-variant);
+    color: var(--color-white);
     border-radius: 15px;
     padding: 0 1rem;
-    font-size: small;
+    font-size: 14px;
+    border: .5px solid var(--color-white);
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
@@ -130,7 +131,9 @@
         margin-left: -5px;
     }
 
-    .skills {
-        font-size: x-small;
+    .skills__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }

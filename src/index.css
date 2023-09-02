@@ -53,7 +53,7 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
 }
 
 h2 {
@@ -61,15 +61,20 @@ h2 {
 }
 
 h3 {
-    font-size: 1.75rem;
-}
-
-h4 {
     font-size: 1.5rem;
 }
 
-h5 {
+h4 {
     font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-weight: normal;
+    font-size: 1rem;
 }
 
 section {
@@ -78,11 +83,11 @@ section {
 
 section > h2, section > h5 {
     text-align: center;
-    color: var(--color-light);
+    color: var(--color-white);
 }
 
-section > h2 {
-    color: var(--color-primary);
+section > h5 {
+    color: var(--color-bg-variant);
     margin-bottom: 3rem;
 }
 
@@ -96,15 +101,16 @@ a:hover {
 }
 
 .btn {
-    width: 100%;
+    width: fit-content;
+    padding: 1rem 1.5rem;
     display: inline-block;
     color: var(--color-primary);
     background-color: var(--color-bg-variant);
-    padding: 0.75rem 1.2 rem;
+    border: 1px solid var(--color-bg);
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var (--color-bg);
     transition: var(--transition);
+    font-size: 16px;
 }
 
 .btn:hover {
@@ -116,11 +122,6 @@ a:hover {
 .btn-primary {
     background: var(--color-primary);
     color: var(--color-bg-variant);
-}
-
-.btn-wrapper {
-    width: 40%;
-    margin: 0 auto;
 }
 
 img {
@@ -153,9 +154,6 @@ img {
     }
     :root {
         --swiper-navigation-size: 20px;
-    }
-    .btn-wrapper {
-        width: 80%;
     }
 }
 

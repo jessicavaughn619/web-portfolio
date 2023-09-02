@@ -2,58 +2,9 @@
     display: grid;
 }
 
-.about__me {
-    width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(
-        45deg, 
-        transparent, 
-        var(--color-primary),
-        transparent
-    );
-    display: grid;
-    place-items: center;
-}
-
-.about__cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-}
-
-.about__card {
-    background: var(--color-bg-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
-    text-align: center;
-    transition: var(--color-primary-variant);
-}
-
-.about__card:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
-    transition: var(--transition);
-}
-
-.about__icon {
-    color: var(--color-primary);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-}
-
-.about__card h5 {
-    font-size: 0.95rem;
-}
-
-.about__card small {
-    font-size: 0.7rem;
-    color: var(--color-light);
-}
-
 .about__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
@@ -62,27 +13,14 @@
     width: 100%;
     text-align: center;
     box-shadow: 10px 5px 5px 5px var(--color-primary-variant);
+    gap: 2rem;
+    align-items: center;
 }
 
 .about__content p {
     margin: 2rem 0;
     color: var(--color-light);
     text-align: start;
-}
-
-.see-more {
-    color: var(--color-white);
-    margin-bottom: 2rem;
-}
-
-.see-more-btn {
-    background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
@@ -97,17 +35,28 @@
     }
 }
 
-/* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
-@media screen and (max-width: 600px) {
-    .about__cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-    }
+img {
+    height: 100%;
+}
 
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    position: relative;
+    overflow: hidden;
+    height: 30rem;
+    border-radius: 12rem;
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
+@media screen and (max-width: 834px) {
     .about__content {
         text-align: center;
+        display: flex;
+        flex-direction: column;
     }
+}
 
+@media screen and (max-width: 600px) {
     .about-content p {
         margin: 1.5rem 0;
     }

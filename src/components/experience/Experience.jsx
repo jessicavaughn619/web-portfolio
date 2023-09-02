@@ -48,8 +48,8 @@ export default function Experience() {
   return (
     <>
     <section id="experience">
-    <h5>Technical Skills</h5>
-    <h2>Top Languages & Frameworks</h2>
+    <h2>Technical Skills</h2>
+    <h5>Top Languages & Frameworks</h5>
     
     <div className="container experience__container">
       <div className="experience__skills">
@@ -59,7 +59,7 @@ export default function Experience() {
     
     </section>
     <section id="experience">
-        <h2>All Skills & Tools</h2>
+        <h5>All Skills & Tools</h5>
     <div className="container experience__container">
       <div className="experience__skills">
       {sortedAllSkills}
