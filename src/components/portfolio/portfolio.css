@@ -34,7 +34,7 @@
 #portfolio-image {
     margin: 0 auto;
     object-fit: cover;
-    border-radius: 1.5rem;
+    border-radius: 1.4rem;
 }
 
 .project_card {
@@ -80,6 +80,7 @@
     display: flex;
     gap: 1rem;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .portfolio__item-description {
@@ -91,7 +92,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: .75rem;
+    gap: 1rem;
+    margin-block: .5rem;
 }
 
 .skills {
@@ -135,5 +137,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: .75rem;
     }
 }

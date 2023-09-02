@@ -38,21 +38,26 @@ footer a:hover {
 .footer__socials a {
     background: var(--color-primary);
     color: var(--color-bg-variant);
-    padding: 0.8rem;
+    padding: 0.5rem;
     border-radius: 0.7rem;
     display: flex;
     border: 1px solid transparent;
 }
 
 .footer__socials a:hover {
-    background: transparent;
-    color: var(--color-bg-variant);
+    background: var(--color-bg-variant);
+    color: var(--color-white);
     border-color: var(--color-bg);
 }
 
 .footer__copyright {
     margin-bottom: 4rem;
     color: var(--color-bg-variant);
+}
+
+.footer__socials a svg {
+    height: 2em;
+    width: 2em;
 }
 
 

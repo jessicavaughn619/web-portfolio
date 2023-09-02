@@ -54,6 +54,8 @@ body {
 
 h1 {
     font-size: 2.75rem;
+    line-height: 1;
+    margin-block: 8px;
 }
 
 h2 {
@@ -139,18 +141,12 @@ img {
     .container {
         width: var(--container-width-md);
     }
-    section {
-        margin-top: 4rem;
-    }
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
-    }
-    section > h2 {
-        margin-bottom: 2rem;
     }
     :root {
         --swiper-navigation-size: 20px;

@@ -35,6 +35,7 @@ header {
 /* =============== HEADER SOCIALS =============== */
 .header__socials > a {
     color: var(--color-bg-variant);
+    font-size: 1.5rem;
 }
 
 .header__socials {
@@ -58,11 +59,11 @@ header {
 
 .scroll__down {
     position: absolute;
-    right: -5rem;
+    right: -7rem;
     top: 15rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     color: var(--color-bg-variant);
 }
 
@@ -73,10 +74,3 @@ header {
         display: none;
     }
 }
-
-/* @media screen and (min-width: 734px) { 
-    #get-to-know-container {
-        grid-template-columns: .75fr 1fr;
-        width: 100%;
-    }
-} */

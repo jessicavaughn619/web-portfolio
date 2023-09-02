@@ -7,7 +7,7 @@ const projects = [
     image: ljcrafts,
     title: "",
     technical: ["React", "Flask", "PostgreSQL", "Tailwind"],
-    description: "Browse, purchase, and review products through e-commerce website",
+    description: "E-commerce site built for a local small business in Colorado. Browse, purchase, and review products.",
     github: "https://github.com/jessicavaughn619/phase-5-craftsy",
     demo: "",
     live: "https://lajuntacrafts.com/",
