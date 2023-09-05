@@ -12,21 +12,29 @@ export default function Nav() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = document.querySelectorAll("section");
-      const scrollPosition = window.scrollY;
+      if (!scrolling) {
+        const sections = document.querySelectorAll("section");
+        const scrollPosition = window.scrollY;
+        const bottomOffset = document.documentElement.scrollHeight - window.innerHeight;
 
-      sections.forEach((section) => {
-        const sectionId = `#${section.getAttribute("id")}`;
+        sections.forEach((section) => {
+          const sectionId = `#${section.getAttribute("id")}`;
 
-        if (
-          section.offsetTop <= scrollPosition + 100 &&
-          section.offsetTop + section.offsetHeight > scrollPosition + 100
-        ) {
-          setActiveNav(sectionId);
+          if (
+            section.offsetTop <= scrollPosition + 100 &&
+            section.offsetTop + section.offsetHeight > scrollPosition + 100
+          ) {
+            setActiveNav(sectionId);
+          }
+        });
+
+        if (scrollPosition < 100) {
+          setActiveNav("#");
         }
-      });
-      if (scrollPosition < 100) {
-        setActiveNav("#");
+
+        if (scrollPosition >= bottomOffset) {
+          setActiveNav("#contact");
+        }
       }
     };
 
@@ -38,11 +46,11 @@ export default function Nav() {
   }, [scrolling]);
 
   const handleClick = (sectionId) => {
-    setScrolling(true); // Set scrolling flag to true when a user clicks
+    setScrolling(true);
     setActiveNav(sectionId);
     setTimeout(() => {
-      setScrolling(false); // Reset scrolling flag after a short delay
-    }, 1000); // Adjust the delay as needed to match your scroll animation duration
+      setScrolling(false);
+    }, 1000);
   };
 
   return (
