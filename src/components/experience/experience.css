@@ -1,6 +1,7 @@
 .experience__container {
     display: grid;
     gap: 2rem;
+    align-self: center;
 }
 
 .experience__skills {
@@ -34,10 +35,28 @@
     padding: .75rem .5rem;
 }
 
+.heading {
+    margin-block: 2rem;
+    text-align: center;
+}
+
+.experience__container_trio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px) {
     .experience__content {
         padding: .75rem .5rem;
+    }
+
+    .experience__container_trio {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
     }
 }
 

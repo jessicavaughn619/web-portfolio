@@ -97,7 +97,6 @@ textarea {
     .container.contact__container {
         display: flex;
         flex-direction: column;
-        width: var(--container-width-sm);
     }
 
     .contact__options {
