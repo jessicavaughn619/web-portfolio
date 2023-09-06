@@ -23,6 +23,11 @@
     text-align: start;
 }
 
+.about_text_button {
+    margin-bottom: 2rem;
+}
+
+
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px) {
     .about__container {
@@ -53,6 +58,9 @@ img {
         text-align: center;
         display: flex;
         flex-direction: column;
+    }
+    .about_text_button {
+        margin-bottom: .5rem;
     }
 }
 

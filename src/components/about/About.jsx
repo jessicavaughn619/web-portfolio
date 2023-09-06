@@ -12,7 +12,7 @@ export default function About() {
         <div className="me">
           <img src={ME} alt="Jessica Vaughn"/>
         </div>
-        <div>
+        <div className="about_text_button">
         <p>I am a freelance software engineer open to new opportunities in front end, back end, or full stack web development.</p>
         <p>Prior to software engineering, I worked in education for eight years, where I taught music, mentored students, and fostered lifelong learners. 
           My love for learning, interest in understanding how things work,

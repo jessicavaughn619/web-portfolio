@@ -91,7 +91,7 @@ section > h2, section > h5 {
 
 section > h5 {
     color: var(--color-bg-variant);
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 a {
@@ -157,6 +157,10 @@ img {
     }
     :root {
         --swiper-navigation-size: 20px;
+    }
+
+    section > h5 {
+        margin-bottom: 1rem;
     }
 }
 
