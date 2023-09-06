@@ -26,6 +26,7 @@
     font-size: 1.5rem;
     color: var(--color-primary);
     margin-top: .5rem;
+    margin-left: 1.5rem;
 }
 
 .experience__content {
@@ -64,11 +65,12 @@
 @media screen and (max-width: 600px) {
     .experience__container {
         gap: 1rem;
+        padding: 1rem;
     }
 
     .experience__skills {
         width: 100%;
         padding: 2rem 1rem;
-        grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
+        grid-template-columns: repeat( auto-fit, minmax(130px, 1fr) );
     }
 }

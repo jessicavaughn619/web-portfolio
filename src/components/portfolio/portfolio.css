@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .swiper-button-next {
@@ -108,18 +108,18 @@
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px) {
-    /* .portfolio__container {
+    .portfolio__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
-    } */
+    }
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
-    /* .portfolio__container {
+    .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
-    } */
+    }
 
     .project_card {
         padding: 1.5rem;
