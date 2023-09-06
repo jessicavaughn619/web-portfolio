@@ -17,7 +17,7 @@ const technicalSkills = [
         skill: "HTML",
         topSkill: true,
         category: "frontEnd",
-        order: 9
+        order: 7
     },
     {
         id: 2,
@@ -49,7 +49,7 @@ const technicalSkills = [
         skill: "CSS",
         topSkill: true,
         category: "frontEnd",
-        order: 10
+        order: 8
     },
     {
         id: 7,
@@ -58,14 +58,6 @@ const technicalSkills = [
         topSkill: true,
         category: "frontEnd",
         order: 2
-    },
-    {
-        id: 8,
-        icon: <DiPostgresql />,
-        skill: "PostgreSQL",
-        topSkill: true,
-        category: "backEnd",
-        order: 6
     },
     {
         id: 9,
@@ -81,15 +73,21 @@ const technicalSkills = [
         skill: "Tailwind",
         topSkill: true,
         category: "frontEnd",
-        order: 8
+        order: 6
+    },
+    {
+        id: 8,
+        icon: <DiPostgresql />,
+        skill: "PostgreSQL",
+        topSkill: false,
+        category: "backEnd"
     },
     {
         id: 16,
         icon: <FiTarget />,
         skill: "SQLAlchemy",
-        topSkill: true,
-        category: "backEnd",
-        order: 7
+        topSkill: false,
+        category: "backEnd"
     },
     {
         id: 10,

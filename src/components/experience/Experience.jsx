@@ -99,16 +99,16 @@ export default function Experience() {
 
     <div className="container experience__container_trio">
     <div>
-    <h5 className="heading">Front End</h5>
+    <h5 className="heading">Front End Skills</h5>
     <div className="experience__container">
       <div className="experience__skills">
       {sortedFrontEndSkills}
       </div>
       </div>
-    </div>
+    </div> 
 
     <div>
-    <h5 className="heading">Back End</h5>
+    <h5 className="heading">Back End Skills</h5>
     <div className="experience__container">
       <div className="experience__skills">
       {sortedBackEndSkills}
@@ -124,6 +124,7 @@ export default function Experience() {
       </div>
     </div>
     </div>
+    
     </div>
 
     </section>
