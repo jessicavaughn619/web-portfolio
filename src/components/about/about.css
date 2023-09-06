@@ -18,13 +18,13 @@
 }
 
 .about__content p {
-    margin: 2rem 0;
+    margin-bottom: 1.5rem;
     color: var(--color-light);
     text-align: start;
 }
 
 .about_text_button {
-    margin-bottom: 2rem;
+    margin-block: 1.5rem;
 }
 
 
@@ -35,8 +35,16 @@
         gap: 0;
     }
 
+    .about__content {
+        gap: 2rem;
+    }
+
     .about__content p {
-        margin: 1rem 0 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .about_text_button {
+        margin-block: 1rem;
     }
 }
 
@@ -59,13 +67,16 @@ img {
         display: flex;
         flex-direction: column;
     }
+    .about__content {
+        gap: 0;
+    }
     .about_text_button {
-        margin-bottom: .5rem;
+        margin-bottom: 0;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .about-content p {
-        margin: 1.5rem 0;
-    }
+    .about__content p {
+        margin-bottom: 1rem;
+     }
 }
