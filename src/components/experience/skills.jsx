@@ -1,9 +1,10 @@
 import {AiOutlineConsoleSql, AiFillHtml5} from "react-icons/ai"
-import {DiJavascript1, DiPython, DiCss3, DiSass, DiReact, DiPostgresql} from "react-icons/di"
+import {DiJavascript1, DiPython, DiCss3, DiSass, DiReact, DiPostgresql, DiRuby} from "react-icons/di"
 import {TbFlask, TbBrandOauth} from "react-icons/tb"
 import {SiSqlite, SiMongodb, SiExpress, SiMongoose, 
     SiSemanticuireact, SiNodedotjs, SiNextdotjs, SiTailwindcss, SiRender, 
-    SiCsharp, SiDotnet, SiLinux, SiKubernetes, SiJenkins, SiAnsible, SiTerraform} from "react-icons/si"
+    SiCsharp, SiDotnet, SiLinux, SiKubernetes, SiJenkins, SiAnsible, SiTerraform,
+    SiRubyonrails} from "react-icons/si"
 import {FiTarget} from "react-icons/fi"
 import {PiFileSqlFill} from 'react-icons/pi'
 import {BsGit, BsFillBootstrapFill} from 'react-icons/bs'
@@ -242,6 +243,20 @@ const technicalSkills = [
         skill: "Terraform",
         topSkill: false,
         category: "devOps"
+    },
+    {
+        id: 35,
+        icon: <DiRuby />,
+        skill: "Ruby",
+        topSkill: false,
+        category: "backEnd"
+    },
+    {
+        id: 36,
+        icon: <SiRubyonrails />,
+        skill: "Rails",
+        topSkill: false,
+        category: "backEnd"
     }
 ]
 
