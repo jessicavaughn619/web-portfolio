@@ -17,44 +17,44 @@ export default function Experience() {
     return 0;
   });
 
-  const frontEndSkills = technicalSkills.filter(skill => (skill.category === "frontEnd"))
-  .sort((a, b) => {
-    const skillA = a.skill.toLowerCase();
-    const skillB = b.skill.toLowerCase();
-    if (skillA < skillB) {
-        return -1;
-    }
-    if (skillA > skillB) {
-        return 1;
-    }
-    return 0;
-  });
+  // const frontEndSkills = technicalSkills.filter(skill => (skill.category === "frontEnd"))
+  // .sort((a, b) => {
+  //   const skillA = a.skill.toLowerCase();
+  //   const skillB = b.skill.toLowerCase();
+  //   if (skillA < skillB) {
+  //       return -1;
+  //   }
+  //   if (skillA > skillB) {
+  //       return 1;
+  //   }
+  //   return 0;
+  // });
 
-  const backEndSkills = technicalSkills.filter(skill => (skill.category === "backEnd"))
-  .sort((a, b) => {
-    const skillA = a.skill.toLowerCase();
-    const skillB = b.skill.toLowerCase();
-    if (skillA < skillB) {
-        return -1;
-    }
-    if (skillA > skillB) {
-        return 1;
-    }
-    return 0;
-  });
+  // const backEndSkills = technicalSkills.filter(skill => (skill.category === "backEnd"))
+  // .sort((a, b) => {
+  //   const skillA = a.skill.toLowerCase();
+  //   const skillB = b.skill.toLowerCase();
+  //   if (skillA < skillB) {
+  //       return -1;
+  //   }
+  //   if (skillA > skillB) {
+  //       return 1;
+  //   }
+  //   return 0;
+  // });
 
-  const devOpsSkills = technicalSkills.filter(skill => (skill.category === "devOps"))
-  .sort((a, b) => {
-    const skillA = a.skill.toLowerCase();
-    const skillB = b.skill.toLowerCase();
-    if (skillA < skillB) {
-        return -1;
-    }
-    if (skillA > skillB) {
-        return 1;
-    }
-    return 0;
-  });
+  // const devOpsSkills = technicalSkills.filter(skill => (skill.category === "devOps"))
+  // .sort((a, b) => {
+  //   const skillA = a.skill.toLowerCase();
+  //   const skillB = b.skill.toLowerCase();
+  //   if (skillA < skillB) {
+  //       return -1;
+  //   }
+  //   if (skillA > skillB) {
+  //       return 1;
+  //   }
+  //   return 0;
+  // });
 
   
   const sortedTopSkills = topSkills.map((technicalSkill) => (
@@ -64,32 +64,32 @@ export default function Experience() {
     />
   ))
 
-  const sortedFrontEndSkills = frontEndSkills.map((technicalSkill) => (
-    <ExperienceCard
-      key={technicalSkill.id} 
-      technicalSkill={technicalSkill}
-    />
-  ))
+  // const sortedFrontEndSkills = frontEndSkills.map((technicalSkill) => (
+  //   <ExperienceCard
+  //     key={technicalSkill.id} 
+  //     technicalSkill={technicalSkill}
+  //   />
+  // ))
 
-  const sortedBackEndSkills = backEndSkills.map((technicalSkill) => (
-    <ExperienceCard
-      key={technicalSkill.id} 
-      technicalSkill={technicalSkill}
-    />
-  ))
+  // const sortedBackEndSkills = backEndSkills.map((technicalSkill) => (
+  //   <ExperienceCard
+  //     key={technicalSkill.id} 
+  //     technicalSkill={technicalSkill}
+  //   />
+  // ))
 
-  const sortedDevOpsSkills = devOpsSkills.map((technicalSkill) => (
-    <ExperienceCard
-      key={technicalSkill.id} 
-      technicalSkill={technicalSkill}
-    />
-  ))
+  // const sortedDevOpsSkills = devOpsSkills.map((technicalSkill) => (
+  //   <ExperienceCard
+  //     key={technicalSkill.id} 
+  //     technicalSkill={technicalSkill}
+  //   />
+  // ))
 
   return (
     <>
     <section id="experience">
     <h2>Technical Skills</h2>
-    <h5>Top Languages & Frameworks</h5>
+    <h5>Languages & Frameworks</h5>
     
     <div className="container experience__container">
       <div className="experience__skills">
@@ -97,7 +97,7 @@ export default function Experience() {
       </div>
     </div>
 
-    <div className="container experience__container_trio">
+    {/* <div className="container experience__container_trio">
     <div>
     <h5 className="heading">Front End Skills</h5>
     <div className="experience__container">
@@ -125,7 +125,7 @@ export default function Experience() {
     </div>
     </div>
     
-    </div>
+    </div> */}
 
     </section>
     </>

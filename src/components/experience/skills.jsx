@@ -18,7 +18,7 @@ const technicalSkills = [
         skill: "HTML",
         topSkill: true,
         category: "frontEnd",
-        order: 7
+        order: 9
     },
     {
         id: 2,
@@ -42,7 +42,23 @@ const technicalSkills = [
         skill: "SQL",
         topSkill: true,
         category: "backEnd",
+        order: 7
+    },
+    {
+        id: 35,
+        icon: <DiRuby />,
+        skill: "Ruby",
+        topSkill: true,
+        category: "backEnd",
         order: 5
+    },
+    {
+        id: 36,
+        icon: <SiRubyonrails />,
+        skill: "Rails",
+        topSkill: true,
+        category: "backEnd",
+        order: 6
     },
     {
         id: 5,
@@ -50,7 +66,7 @@ const technicalSkills = [
         skill: "CSS",
         topSkill: true,
         category: "frontEnd",
-        order: 8
+        order: 10
     },
     {
         id: 7,
@@ -74,7 +90,7 @@ const technicalSkills = [
         skill: "Tailwind",
         topSkill: true,
         category: "frontEnd",
-        order: 6
+        order: 8
     },
     {
         id: 8,
@@ -243,20 +259,6 @@ const technicalSkills = [
         skill: "Terraform",
         topSkill: false,
         category: "devOps"
-    },
-    {
-        id: 35,
-        icon: <DiRuby />,
-        skill: "Ruby",
-        topSkill: false,
-        category: "backEnd"
-    },
-    {
-        id: 36,
-        icon: <SiRubyonrails />,
-        skill: "Rails",
-        topSkill: false,
-        category: "backEnd"
     }
 ]
 
