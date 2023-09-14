@@ -13,13 +13,10 @@ export default function About() {
           <img src={ME} alt="Jessica Vaughn"/>
         </div>
         <div className="about_text_button">
-        <p>I am a freelance software engineer open to new opportunities in front end, back end, or full stack web development.</p>
-        <p>Prior to software engineering, I worked in education for eight years, where I taught music, mentored students, and fostered lifelong learners. 
-          My love for learning, interest in understanding how things work,
-          and desire to positively impact my community initiated my transition to software engineering.</p>
-          <p>I live in Denver with my husband Steve and two dogs and a cat - Molly, Olivia, and Bruce. 
-          I enjoy hiking and camping, reading, and exploring the many breweries in and around our city.
-          </p>
+        <p>I am a Full Stack Software Engineer transitioning to engineering from education. I worked in education for eight years, teaching music and honing my problem solving and leadership skills.</p>
+        <p>My love for learning, interest in understanding how things work, and desire to positively impact my community initiated my transition to software engineering.</p>
+        <p>I'm looking for a new opportunity in front end, back end, or full stack software development and am open to hybrid, in-person, or remote roles.</p>
+        <p>I live in Denver with my husband Steve and two dogs and a cat - Molly, Olivia, and Bruce. I enjoy hiking and camping, reading, and exploring the many breweries in and around our city.</p>
         <div className="btn-wrapper">
         <a href="#contact" className="btn btn-primary">Let's Connect</a>
         </div>
