@@ -93,6 +93,14 @@ const technicalSkills = [
         order: 8
     },
     {
+        id: 27,
+        icon: <FaDocker />,
+        skill: "Docker",
+        topSkill: true,
+        category: "devOps",
+        order: 11
+    },
+    {
         id: 8,
         icon: <DiPostgresql />,
         skill: "PostgreSQL",
@@ -203,13 +211,6 @@ const technicalSkills = [
         skill: "OAuth",
         topSkill: false,
         category: "backEnd"
-    },
-    {
-        id: 27,
-        icon: <FaDocker />,
-        skill: "Docker",
-        topSkill: false,
-        category: "devOps"
     },
     {
         id: 28,
