@@ -8,7 +8,7 @@ import {SiSqlite, SiMongodb, SiExpress, SiMongoose,
 import {FiTarget} from "react-icons/fi"
 import {PiFileSqlFill} from 'react-icons/pi'
 import {BsGit, BsFillBootstrapFill} from 'react-icons/bs'
-import {BiMobile} from 'react-icons/bi'
+import {BiMobile, BiLogoDrupal, BiLogoWordpress} from 'react-icons/bi'
 import {FaDocker} from 'react-icons/fa'
 
 const technicalSkills = [
@@ -42,7 +42,7 @@ const technicalSkills = [
         skill: "SQL",
         topSkill: true,
         category: "backEnd",
-        order: 7
+        order: 8
     },
     {
         id: 35,
@@ -61,6 +61,14 @@ const technicalSkills = [
         order: 6
     },
     {
+        id: 37,
+        icon: <BiLogoDrupal />,
+        skill: "Drupal",
+        topSkill: true,
+        category: "cms",
+        order: 7
+    },
+    {
         id: 5,
         icon: <DiCss3 />,
         skill: "CSS",
@@ -77,6 +85,14 @@ const technicalSkills = [
         order: 2
     },
     {
+        id: 14,
+        icon: <BsGit />,
+        skill: "Git",
+        topSkill: true,
+        category: "devOps",
+        order: 12
+    },
+    {
         id: 9,
         icon: <TbFlask />,
         skill: "Flask",
@@ -88,9 +104,8 @@ const technicalSkills = [
         id: 13,
         icon: <SiTailwindcss />,
         skill: "Tailwind",
-        topSkill: true,
+        topSkill: false,
         category: "frontEnd",
-        order: 8
     },
     {
         id: 27,
@@ -141,13 +156,6 @@ const technicalSkills = [
         skill: "Sass",
         topSkill: false,
         category: "frontEnd"
-    },
-    {
-        id: 14,
-        icon: <BsGit />,
-        skill: "Git",
-        topSkill: false,
-        category: "devOps"
     },
     {
         id: 15,
@@ -260,6 +268,13 @@ const technicalSkills = [
         skill: "Terraform",
         topSkill: false,
         category: "devOps"
+    },
+    {
+        id: 38,
+        icon: <BiLogoWordpress />,
+        skill: "WordPress",
+        topSkill: false,
+        category: "cms"
     }
 ]
 
