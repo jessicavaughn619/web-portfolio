@@ -25,7 +25,7 @@ export default function Portfolio() {
   return (
     <section id="portfolio">
       <h2>My Recent Work</h2>
-      <h5>Featured Project</h5>
+      <h5>Featured Projects</h5>
       <div className="container portfolio__container">
       <Swiper
         spaceBetween={10}
