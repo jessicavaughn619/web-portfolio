@@ -19,7 +19,7 @@ const projects = [
         image: stitchfix,
         title: "",
         technical: ["React"],
-        description: "UI clone of Stitch Fix personal styling website home page. Support Stitch Fix by visiting <a href='www.stitchfix.com' class='project-link'>their website</a>.",
+        description: "UI clone of Stitch Fix personal styling website home page. Support Stitch Fix by visiting <a href='https://www.stitchfix.com/' class='project-link'>their website</a>.",
         github: "https://github.com/jessicavaughn619/stitch-fix-clone",
         demo: "",
         live: "https://stitch-fix-clone.onrender.com/",
