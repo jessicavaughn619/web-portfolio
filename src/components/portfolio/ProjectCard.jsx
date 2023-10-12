@@ -18,7 +18,7 @@ export default function ProjectCard({ project }) {
                 </div>
             </div>
             <div className="portfolio__item-description">
-                <p>{description}</p>
+                <p dangerouslySetInnerHTML={{ __html: description}} />
             </div>
             <div className="portfolio__item-cta">
                 {demo && <a href={demo} className="btn btn-primary" target="_blank" rel="noreferrer">Demo</a>}

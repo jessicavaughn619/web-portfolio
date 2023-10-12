@@ -31,10 +31,17 @@
     display: block;
 }
 
+.portfolio__item-image {
+    display: block;
+    height: 10rem;
+}
+
 #portfolio-image {
     margin: 0 auto;
     object-fit: cover;
     border-radius: 1.4rem;
+    background-color: white;
+    object-fit: contain;
 }
 
 .project_card {
@@ -86,6 +93,15 @@
 .portfolio__item-description {
     font-style: italic;
     font-size: 16px;
+}
+
+.project-link {
+    color: var(--color-white);
+}
+
+.project-link:hover {
+    color: var(--color-bg-variant);
+    background-color: var(--color-light);
 }
 
 .skills__container {
