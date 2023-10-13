@@ -13,11 +13,12 @@ export default function About() {
           <img src={ME} alt="Jessica Vaughn"/>
         </div>
         <div className="about_text_button">
-        <p>I am a Full Stack Software Engineer with an extensive background in education and web development.</p>
-        <p>I directed high school band programs for eight years, teaching music and honing my problem solving and leadership skills. 
-        My love for learning, interest in understanding how things work, and desire to positively impact my community initiated my transition to software engineering.</p>
-        <p>I have been designing and implementing full stack web solutions for clients for six months. I am looking for a new opportunity as a full stack developer in a large commercial company.</p>
-        <p>I live in Denver with my husband Steve and two dogs and a cat - Molly, Olivia, and Bruce. I enjoy hiking and camping, reading, and exploring the many breweries in and around our city.</p>
+        <p>I am a full stack software engineer experienced in designing and building customer solutions.
+        I have a unique journey that began in music education, where I directed high school bands for eight years.
+        During my teaching tenure, I developed an invaluable skill set that helped me transition to software engineering.</p>
+        <p>Teaching honed my identity as a lifelong learner, taught me how to collaborate effectively with a dynamic team, to analyze and make data-driven decisions, and strengthened my resilience and problem solving skills in the face of challenges.</p>
+        <p>Since transitioning to engineering, I have developed a strong technical skill set to complement these assets.</p>
+        <p>I live in Denver with my husband Steve and two dogs and a cat - Molly, Olivia, and Bruce. I enjoy hiking and camping, listening to and performing music, reading, and exploring the many breweries in and around our city.</p>
         <div className="btn-wrapper">
         <a href="#contact" className="btn btn-primary">Let's Connect</a>
         </div>
