@@ -9,6 +9,7 @@ import {PiFileSqlFill} from 'react-icons/pi'
 import {BsGit, BsFillBootstrapFill} from 'react-icons/bs'
 import {BiMobile, BiLogoDrupal} from 'react-icons/bi'
 import {FaDocker, FaGithub} from 'react-icons/fa'
+import { SiSalesforce } from "react-icons/si";
 
 const technicalSkills = [
     {
@@ -230,6 +231,14 @@ const technicalSkills = [
         topSkill: true,
         category: "devOps",
         order: 18
+    },
+    {
+        id: 30,
+        icon: <SiSalesforce />,
+        skill: "Apex",
+        topSkill: true,
+        category: "backEnd",
+        order: 0
     }
 ]
 
