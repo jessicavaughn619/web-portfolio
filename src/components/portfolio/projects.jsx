@@ -11,7 +11,7 @@ const projects = [
     description: "E-commerce site built for a local small business in Colorado. Browse, purchase, and review products.",
     github: "https://github.com/jessicavaughn619/phase-5-craftsy",
     demo: "",
-    live: "https://lajuntacrafts.com/",
+    live: "",
     order: 1
 },
     {
@@ -22,7 +22,7 @@ const projects = [
         description: "UI clone of Stitch Fix personal styling website home page. Support Stitch Fix by visiting <a href='https://www.stitchfix.com/' class='project-link'>their website</a>.",
         github: "https://github.com/jessicavaughn619/stitch-fix-clone",
         demo: "",
-        live: "https://stitch-fix-clone.onrender.com/",
+        live: "",
         order: 2
 
     }
